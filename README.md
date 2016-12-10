@@ -34,7 +34,7 @@ Team-mate responsibilities:
 2) Sayli:
 
   -> Fridge activity - Containing Expandable List Views with checkboxes. Even on collapsing the group names, the checked child checkboxes retains. Also, implementing the logic behind retriveing the recipes based on whether they fulfil 50% minimum available ingredients.
-     Time required for Expandable Listview - 2 hours
+     Time required for Expandable Listview - 2 hours.
      Time required to dynamically generating checkboxes so that it remembers the selected items even on group collapse- 3 hours
   
   -> Result activity - Containing Custom List Views with an image thumbnail and text.
@@ -44,7 +44,7 @@ Team-mate responsibilities:
      Time required - 1/2 an hour
   
   -> SQLite Database(Database Handler.java) - It stores 12 recipes(id, name, link to webpage containing recipe, link to Drawable image).
-     Time required - 4 hours
+     Time required - 4 hours.
      Spent a lot of time changing the structure of database and trying to execute complex queries with UNIONs and INTERSECT. Same query used to execute in Oracle but the SQLite Cursor returned null.
   
   -> Shared Preferences - To toggle the themes of the App. On restarting the application, the themes is according to the last saved preference.
