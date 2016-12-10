@@ -8,12 +8,19 @@ New concepts learnt and implemented - Expandable List Views with checkboxes, Cus
 
 Team-mate responsibilities:
 1) Aniket:
-  -> MainActivity - Containing Menu Overflows(Rate this App, Change Theme, Uninstall App)
+
+  -> MainActivity - Containing Menu Overflows(Rate this App, Change Theme, Uninstall App).
+  
   -> Rate this App - Custom Alert Dialog Box with Rating Bar with max. 5 stars and multi-line feedback.
+  
   -> Connection.java - The user entered no. of stars and feedback are inserted in MYSQL(phpMyAdmin) database on an online server.
+  
   -> db.php - Middleware to connect Android to Online Backend Database.
+  
   -> Internet Permission to access online database.
+  
   -> Implementing various Alert Dialogs to check for conditions wherein user doesn't check any checkboxes, etc. i.e. to handle exceptions.
+  
   -> Generating .APK file for the project.
 
 2) Sayli:
