@@ -7,6 +7,8 @@ Concepts used: Toast, Intents(with Bundles), Menu Overflows, App Chooser, Alert 
 New concepts learnt and implemented - Expandable List Views with checkboxes, Custom Alert Dialog, Generating .APK file.
 
 Team-mate responsibilities:
+
+
 1) Aniket:
 
   -> MainActivity - Containing Menu Overflows(Rate this App, Change Theme, Uninstall App).
@@ -22,8 +24,19 @@ Team-mate responsibilities:
   -> Implementing various Alert Dialogs to check for conditions wherein user doesn't check any checkboxes, etc. i.e. to handle exceptions.
   
   -> Generating .APK file for the project.
+  
 
 2) Sayli:
-  -> Fridge activity containing Expandable List Views with checkboxes, Result activity containing Custom List Views, App Chooser, SQLite Databases 
+
+  -> Fridge activity - Containing Expandable List Views with checkboxes.
+  
+  -> Result activity - Containing Custom List Views with an image thumbnail and text.
+  
+  -> App Chooser - On clicking the above List View items, a Web Browser App chooser will pop up and open the link associated with the recipe from the database,
+  
+  -> SQLite Database(Database Handler.java) - It stores 12 recipes(id, name, link to webpage containing recipe, link to Drawable image).
+  
+  -> Shared Preferences - To toggle the themes of the App.
 
 
+Both of us contributed equally to the creation of Presentation, Readme files.
