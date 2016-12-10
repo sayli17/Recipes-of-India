@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Done"
+        android:id="@+id/btnDone"
+        android:layout_weight="0.5"
+        android:layout_marginRight="20dp"
+        android:background="#AE310D"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:onClick="onDone" />
+
+</LinearLayout>
